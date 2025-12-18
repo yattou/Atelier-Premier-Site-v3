@@ -1,0 +1,599 @@
+body {
+    background-color: rgb(248, 247, 243);
+    margin: 0;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: Fraunces;
+}
+
+
+
+
+.intro-img {
+    width: 1510px;
+    margin-left: 26px;
+    margin-top: 250px;
+}
+
+
+.titre-histoire {
+    font-size: 100px;
+    margin-top: 100px;
+    font-weight: 300;
+    margin-left: 150px;
+}
+
+
+.histoire {
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+
+.offices-img {
+    width: 580px;
+    height: 580px;
+    margin-left: 150px;
+}
+
+.texte-offices {
+    margin: 45px;
+    padding: 0px;
+}
+
+.titre-offices {
+    font-size: 36px;
+    font-style: italic;
+    margin: 0;
+}
+
+.paragraphe-offices {
+    font-size: 22px;
+    font-family: Comme;
+    line-height: 42px;
+    text-align: left;
+    margin-right: 125px;
+    margin-top: 64px;
+}
+
+
+
+
+.pitti-img {
+    width: 580px;
+    height: 580px;
+    margin-right: 150px;
+}
+
+.texte-pitti {
+    margin: 45px;
+    padding: 0px;
+}
+
+.titre-pitti {
+    font-size: 36px;
+    font-style: italic;
+    margin: 0;
+    text-align: right;
+}
+
+.paragraphe-pitti {
+    font-size: 22px;
+    font-family: Comme;
+    line-height: 42px;
+    text-align: right;
+    margin-left: 125px;
+    margin-top: 64px;
+}
+
+
+
+.boboli-img {
+    width: 580px;
+    height: 580px;
+    margin-left: 150px;
+}
+
+.texte-boboli {
+    margin: 45px;
+    padding: 0px;
+}
+
+.titre-boboli {
+    font-size: 36px;
+    font-style: italic;
+    margin: 0;
+}
+
+.paragraphe-boboli {
+    font-size: 22px;
+    font-family: Comme;
+    line-height: 42px;
+    text-align: left;
+    margin-right: 125px;
+    margin-top: 64px;
+}
+
+
+.vasari-img {
+    width: 580px;
+    height: 580px;
+    margin-right: 150px;
+}
+
+.texte-vasari {
+    margin: 45px;
+    padding: 0px;
+}
+
+.titre-vasari {
+    font-size: 36px;
+    font-style: italic;
+    margin: 0;
+    text-align: right;
+}
+
+.paragraphe-vasari {
+    font-size: 22px;
+    font-family: Comme;
+    line-height: 42px;
+    text-align: right;
+    margin-left: 125px;
+    margin-top: 64px;
+}
+
+
+
+
+
+.offices {
+    display: flex;
+    margin-bottom: 166px;
+}
+
+.pitti {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-bottom: 166px;
+}
+
+.boboli {
+    display: flex;
+    margin-bottom: 166px;
+}
+
+.vasari {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-bottom: 166px;
+}
+
+
+
+
+
+
+
+
+
+.oeuvres {
+    margin-left: 175px;
+    margin-right: 175px;
+    margin-bottom: 268px;
+}
+
+.titre-oeuvres {
+    font-size: 100px;
+    margin-top: 100px;
+    font-weight: 300;
+}
+
+
+
+.intro-oeuvres-img {
+    width: 100%;
+}
+
+.naissance-printemps {
+    display: flex;
+    justify-content: space-between;
+}
+
+.naissance-img {
+    width: 550px;
+    height: 330px;
+}
+
+.printemps-img {
+    width: 550px;
+    height: 330px;
+}
+
+
+
+
+.vinci {
+    display: flex;
+    margin-top: 100px;
+}
+
+
+.titre-naissance {
+    font-size: 28px;
+    font-style: italic;
+    margin: 0;
+    margin-top: 35px;
+}
+
+
+.paragraphe-naissance {
+    font-family: Comme;
+    margin-right: 230px;
+    font-size: 22px;
+    line-height: 35px;
+}
+
+
+.bouton-naissance {
+    border-radius: 50px;
+    background-color: grey;
+    color: rgb(248, 247, 243);
+    border-width: 0;
+    font-size: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+.titre-printemps {
+    font-size: 28px;
+    font-style: italic;
+    margin: 0;
+    margin-top: 35px;
+}
+
+
+.paragraphe-printemps {
+    font-family: Comme;
+    margin-right: 180px;
+    font-size: 22px;
+    line-height: 35px;
+}
+
+.bouton-printemps {
+    border-radius: 50px;
+    background-color: grey;
+    color: rgb(248, 247, 243);
+    border-width: 0;
+    font-size: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.vinci-img {
+    width: 550px;
+    margin-right: 36px;
+}
+
+.titre-vinci {
+    font-size: 28px;
+    font-style: italic;
+    margin: 0;
+    margin-top: 35px;
+}
+
+
+.paragraphe-vinci {
+    font-family: Comme;
+    margin-right: 80px;
+    font-size: 22px;
+    line-height: 35px;
+}
+
+.bouton-vinci {
+    border-radius: 50px;
+    background-color: grey;
+    color: rgb(248, 247, 243);
+    border-width: 0;
+    font-size: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+.paragraphe-intro-oeuvres {
+    font-family: Comme;
+    margin-right: 600px;
+    margin-bottom: 100px;
+    font-size: 22px;
+    line-height: 35px;
+}
+
+
+
+
+@media screen and (max-width: 600px) {
+
+    
+
+
+
+    .menu {
+        display: none;
+    }
+
+    .intro-img {
+        width: 99%;
+        margin-left: 8px;
+        margin-top: 130px;
+    }
+
+    .histoire {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .titre-histoire {
+        font-size: 64px;
+        margin-right: 280px;
+    }
+
+    .offices {
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+
+    .offices-img {
+        width: 373px;
+        height: 431px;
+        margin-left: 0px;
+    }
+
+    .texte-offices {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 50px;
+        margin-right: 50px;
+        padding-left: 10px;
+    }
+
+    .paragraphe-offices {
+        margin-right: 0px;
+        margin-top: 20px;
+        line-height: 50px;
+        font-size: 18px;
+    }
+
+    .pitti {
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+
+    .pitti-img {
+        width: 373px;
+        height: 431px;
+        margin-right: 0px;
+    }
+
+    .texte-pitti {
+        margin-left: 0px;
+        text-align: left;
+        margin-right: 0px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 50px;
+        margin-right: 50px;
+        padding-right: 10px;
+    }
+
+    .titre-pitti {
+        margin-left: 125px;
+    }
+
+    .paragraphe-pitti {
+        margin-left: 0px;
+        font-size: 18px;
+        line-height: 50px;
+    }
+    
+    .boboli {
+        flex-direction: column;
+        margin-left: 0px;
+        display: flex;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+
+    .boboli-img {
+        width: 373px;
+        height: 431px;
+        margin-left: 0px;
+    }
+
+
+    .texte-boboli {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 50px;
+        margin-right: 50px;
+        padding-left: 10px;
+    }
+
+    .paragraphe-boboli {
+        margin-right: 0px;
+        margin-top: 20px;
+        line-height: 50px;
+        font-size: 18px;
+    }
+
+    .vasari {
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+
+    .vasari-img {
+        width: 373px;
+        height: 431px;
+        margin-right: 0px;
+    }
+
+    .texte-vasari {
+        margin-left: 0px;
+        text-align: left;
+        margin-right: 0px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 50px;
+        margin-right: 50px;
+        padding-right: 10px;
+    }
+
+    .paragraphe-vasari {
+        margin-left: 0px;
+        font-size: 18px;
+        line-height: 50px;
+    }
+
+    .titre-vasari {
+        margin-left: 125px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /**/
+
+    .titre-oeuvres {
+        font-size: 64px;
+        margin-left: 0px;
+    }
+
+    .oeuvres {
+        margin-left: 0px;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 20px;
+        margin-left: 25px;
+        margin-right: 25px;
+        padding: 50px;
+    }
+
+    .paragraphe-intro-oeuvres {
+        margin-right: 40px;
+        text-align: left;
+        font-size: 18px;
+        line-height: 50px;
+    }
+
+    .intro-oeuvres-img {
+        height: 182px;
+    }
+
+
+    .naissance-printemps {
+        flex-direction: column;
+    }
+
+    .naissance-img {
+        width: 100%;
+        height: 250px;
+    }
+
+    .paragraphe-naissance {
+        margin-right: 70px;
+        text-align: left;
+        font-size: 18px;
+        line-height: 50px;
+    }
+
+    .bouton-naissance {
+        margin-bottom: 69px;
+    }
+
+
+
+    .printemps-img {
+        width: 100%;
+        height: 250px;
+    }
+
+    .paragraphe-printemps {
+        margin-right: 100px;
+        text-align: left;
+        font-size: 18px;
+        line-height: 50px;
+    }
+
+    .bouton-printemps {
+        margin-bottom: 69px;
+    }
+    
+    
+
+    .vinci-img {
+        width: 100%;
+        height: 250px;
+    }
+
+    .paragraphe-vinci {
+        margin-right: 100px;
+        text-align: left;
+        font-size: 18px;
+        line-height: 50px;
+    }
+
+    .bouton-vinci {
+        margin-bottom: 69px;
+    }
+
+    .vinci {
+        flex-direction: column;
+    }
+
+   
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

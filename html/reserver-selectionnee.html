@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="/css/header.css" />
+    <link rel="stylesheet" type="text/css" href="/css/reserver-selectionnee.css" />
+    <link rel="stylesheet" type="text/css" href="/css/footer.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comme:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@400;700&display=swap" rel="stylesheet">
+    <title>Réservation</title>
+</head>
+<body>
+    <header>
+
+        <div class="logo">
+            <a href="/html/index.html"><img src="/images/logo.png" alt="logo "class="logo-css"/></a>
+        </div>
+
+
+        <div class="menu">
+            <ul class="menu-ul">
+                <li><a href="/html/index.html"><button class="bouton-menu" type="button">Découvrir</button></a></li>
+                <li><a href="/html/reserver-propositions.html"><button class="bouton-menu" type="button">Réserver</button></a></li>
+                <li><a href="/html/informations.html"><button class="bouton-menu" type="button">Informations</button></a></li>
+                <li><a href="/html/contacts.html"><button class="bouton-menu" type="button">Contacts</button></a></li>
+            </ul>
+        </div>
+
+        <div class="langue">
+            <select name="langue" id="langue-select">
+                <option value="francais">FR</option>
+                <option value="english">EN</option>
+                <option value="espanol">ES</option>
+                <option value="deutsch">DE</option>
+            </select>
+        </div>
+
+    </header>
+    <main>
+        <div class="titre">
+            <p>Réservation</p>
+        </div>
+
+        <div class="offices-image-contact-date">
+            <div class="offices-image">
+                <div class="offices">
+                    <p class="titre-offices">GALERIE DES</br>OFFICES</p>
+                </div>
+                <div class="image">
+                    <img src="/images/03_2015_La_Tribuna-Lottatori-Apollino-Arrotino-Venere_de_Medici_opera_greca_Cleomene_di_Apollodoro-Galleria_degli_Uffizi_(Firenze)_Photo_Paolo_Villa_FOTO9235bisimg_0001 1.png" alt="image "class="image-css"/>
+                </div>
+            </div>
+            <div class="contact-date">
+                <div class="contact">  
+                    <p class="titre-contact">COORDONNÉES DE CONTACT</p>
+                    <input type="nom-prenom" class="nom-prenom" name="nom-prenom" placeholder="NOM / PRÉNOM *">
+                    <hr class="separateur-contact">
+                    <input type="e-mail" class="e-mail" name="e-mail" placeholder="E-MAIL *">
+                    <hr class="separateur-contact">
+                    <input type="confirme-e-mail" class="confirme-e-mail" name="confirme-e-mail" placeholder="CONFIRMER VOTRE E-MAIL *">
+                    <hr class="separateur-contact">
+                    <p class="titre-pays">SÉLÉCTIONNEZ VOTRE CODE PAYS</p>
+                    <div class="select-pays">
+                        <img src="/images/france.png" alt="drapeau" class="drapeau-img"/>
+                        <select name="liste-pays" class="liste-pays">
+                            <option value="france">FRANCE (+33)</option>
+                            <option value="angleterre">ANGLETERRE (+44)</option>
+                            <option value="espagne">ESPAGNE (+34)</option>
+                            <option value="allemagne">ALLEMAGNE (+49)</option>
+                        </select>
+                    </div> 
+                    <hr class="separateur-contact">
+                    <input type="num-tel" class="num-tel" name="num-tel" placeholder="NUMÉRO DE TÉLÉPHONE *">
+                    <hr class="separateur-contact">
+                </div>
+                <div class="date">
+
+
+
+
+                    <img src="/images/calendar.png" alt="calendrier" class="calendrier"/>
+
+
+
+
+
+
+                </div>
+            </div>
+        </div>
+        <div class="billets">
+            <p class="titre-billets">SÉLÉCTIONNEZ LE NOMBRE DE BILLETS</p>
+            <div class="liste-billets">
+                <div class="standard-billets">
+                    <p class="titre-standard-billets">STANDARD :</p>
+                    <img src="/images/negatif.png" alt="symbole negatif" class="symbole-negatif symbole-negatif-standard"/>
+                    <p class="nombre-standard-billets">1</p>
+                    <img src="/images/positif.png" alt="symbole positif" class="symbole-positif symbole-positif-standard"/>
+                    <p class="prix-standard-billets">69.90€</p>
+                </div>
+                <div class="adolescent-billets">
+                    <p class="titre-adolescent-billets">ADOLESCENT (15-17) :</p>
+                    <img src="/images/negatif.png" alt="symbole negatif" class="symbole-negatif symbole-negatif-adolescent"/>
+                    <p class="nombre-adolescent-billets">0</p>
+                    <img src="/images/positif.png" alt="symbole positif" class="symbole-positif symbole-positif-adolescent"/>
+                    <p class="prix-adolescent-billets">12.00€</p>
+                </div>
+                <div class="jeune-billets">
+                    <p class="titre-jeune-billets">JEUNE (7-14) :</p>
+                    <img src="/images/negatif.png" alt="symbole negatif" class="symbole-negatif symbole-negatif-jeune"/>
+                    <p class="nombre-jeune-billets">0</p>
+                    <img src="/images/positif.png" alt="symbole positif" class="symbole-positif symbole-positif-jeune"/>
+                    <p class="prix-jeune-billets">12.00€</p>
+                </div>
+                <div class="enfant-billets">
+                    <p class="titre-enfant-billets">ENFANT (0-6) :</p>
+                    <img src="/images/negatif.png" alt="symbole negatif" class="symbole-negatif symbole-negatif-enfant"/>
+                    <p class="nombre-enfant-billets">0</p>
+                    <img src="/images/positif.png" alt="symbole positif" class="symbole-positif symbole-positif-enfant"/>
+                    <p class="prix-enfant-billets">6.00€</p>
+                </div>
+            </div>
+        </div>
+        <div class="prix-total">
+            <p class="titre-prix-total">PRIX TOTAL :</p>
+            <button class="bouton-prix-total" type="button">🎟️ RÉSERVER VOS BILLETS</button>
+        </div>
+
+
+
+
+
+
+
+
+
+
+    </main>
+    <footer>
+        <div class="horaires">
+            <p>Horaires : </br> 8h15 - 19h30 (CET)</p>
+        </div>
+        <div class="contacts">
+            <ul class="contacts-ul">
+                <li class="contacts-li">
+                    <img src="/images/logo.png" alt="whatsapp-image "class="contacts-image"/>
+                    <p>+34 600 124 206</p>
+                </li>
+                <li class="contacts-li">
+                    <img src="/images/logo.png" alt="telephone-image "class="contacts-image"/>
+                    <p>+34 664 64 29 04</p>
+                </li>
+                <li class="contacts-li">
+                    <img src="/images/logo.png" alt="mail-image "class="contacts-image"/>
+                    <p>Info@Feelthecitytours.Com</p>
+                </li>
+            </ul>
+        </div>
+        <div class="avis-important">
+            <p>Avis important : Ce site web n’est ni affilié, ni sponsorisé, ni autorisé, ni exploité par la Galerie des Offices ni par aucune autre entité de gestion officielle. Nous proposons des services touristiques indépendants incluant des billets et des contenus numériques tels que des audioguides, afin de faciliter l’expérience des visiteurs. Tous les billets proposés sur ce site sont valables et officiels et sont acquis via des canaux autorisés. Les prix peuvent inclure des frais supplémentaires liés à la gestion, à la mise à disposition anticipée, au service client et aux contenus numériques fournis. Les marques déposées, logos et dénominations officielles des monuments mentionnés sont la propriété exclusive de leurs titulaires respectifs et sont utilisés uniquement à des fins descriptives, sans intention de créer une confusion ni d’appropriation.</p>
+        </div>
+        <hr class="separateur">
+        <div class="liens">
+            <ul class="liens-ul">
+                <li>@2025 Uffizi by Feel The City</li>
+                <li>|</li>
+                <li>Termes et Conditions</li>
+                <li>|</li>
+                <li>Politique de Confidentialité</li>
+                <li>|</li>
+                <li>Politique en matière de cookies</li>
+                <li>|</li>
+                <li>Politique d'annulation </li>
+                <li>|</li>
+                <li>FAQs</li>
+            </ul>
+        </div>
+        <div class="logo-footer">
+            <img src="/images/logo_footer.png" alt="logo footer "class="logo-footer-css"/>
+        </div>
+    </footer>
+</body>
+</html>

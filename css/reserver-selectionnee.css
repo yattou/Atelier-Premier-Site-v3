@@ -1,0 +1,360 @@
+body {
+    background-color: rgb(248, 247, 243);
+    margin: 0;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+
+.offices {
+    width: 579px;
+    height: 275px;
+    margin-right: 41px;
+}
+
+.image {
+    width: 579px;
+    height: 275px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3);
+    border-radius: 30px;
+}
+
+
+.contact {
+    background-color: rgb(248, 247, 243);
+    width: 556px;
+    height: 552px;
+    margin-right: 41px;
+    padding-left: 23px;
+    border-radius: 24px;
+    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.3);
+    transition: box-shadow 0.2s;
+    margin-right: 51px;
+}
+
+.contact:hover {
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3);
+}
+
+
+.billets {
+    background-color: rgb(248, 247, 243);
+    width: 800px;
+    height: 270px;
+    margin-bottom: 48px;
+    padding-left: 30px;
+    border-radius: 24px;
+    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.3);
+    transition: box-shadow 0.2s;
+}
+
+.billets:hover {
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3);
+}
+
+
+.calendrier {
+    border-radius: 24px;
+    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.3);
+    transition: box-shadow 0.2s;
+}
+
+.calendrier:hover {
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3);
+}
+
+.prix-total {
+    background-color: rgb(248, 247, 243);
+    margin-left: 340px;
+    display: flex;
+    padding: 26px;
+    border-radius: 27px;
+    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.3);
+    transition: box-shadow 0.2s;
+    margin-bottom: 150px;
+}
+
+.prix-total:hover {
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3);
+}
+
+
+
+.titre-prix-total {
+    font-size: 30px;
+    font-weight: 800;
+    margin-right: 110px;
+}
+
+
+.bouton-prix-total {
+    width: 499px;
+    border-radius: 50px;
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+    font-family: Comme;
+    font-size: 30px;
+    
+}
+
+.bouton-prix-total:hover {
+    background-color: rgb(26, 31, 46);
+    color: rgb(248, 247, 243);
+}
+
+
+main {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Fraunces;
+}
+
+.offices-image {
+    display: flex;
+    margin-bottom: 101px;
+}
+
+.contact-date {
+    display: flex;
+    margin-bottom: 41px;
+}
+
+.titre {
+    font-size: 100px;
+    margin-top: 100px;
+}
+
+.date {
+    width: 579px;
+    height: 550px;
+}
+
+
+
+.titre-offices {
+    text-align: center;
+    background-color: rgb(248, 247, 243);
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3);
+    border-radius: 25px;
+    margin-right: 117px;
+    margin-left: 117px;
+    margin-top: 29px;
+    margin-bottom: 29px;
+    padding-bottom: 49px;
+    padding-top: 74px;
+    padding-left: 0px;
+    padding-right: 0px;
+    font-size: 37px;
+}
+
+.image-css {
+    width: 579px;
+    height: 275px;
+    border-radius: 30px;
+}
+
+
+
+
+
+
+.titre-contact {
+    font-size: 30px;
+}
+
+.nom-prenom {
+    margin-top: 0;
+    background-color: rgb(248, 247, 243);
+    border: none;
+    font-size: 20px;
+    padding-right: 100px;
+    font-family: Fraunces;
+}
+
+.separateur-contact {
+    color: rgb(0, 0, 0);
+    height: 1.5px;
+    background-color: black;
+    border: none;
+    margin-left: 4px;
+    margin-right: 85px;
+}
+
+.e-mail {
+    background-color: rgb(248, 247, 243);
+    border: none;
+    font-size: 20px;
+    margin-top: 37px;
+    padding-right: 100px;
+    font-family: Fraunces;
+}
+
+.confirme-e-mail {
+    background-color: rgb(248, 247, 243);
+    border: none;
+    font-size: 20px;
+    margin-top: 37px;
+    padding-right: 100px;
+    font-family: Fraunces;
+}
+
+.titre-pays {
+    font-size: 20px;
+    margin-top: 60px;
+}
+
+.drapeau-img {
+    width: 45px;
+    height: 30px;
+    border-radius: 7px;
+}
+
+.liste-pays {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    border-radius: 0px;
+    margin-left: 20px;
+    padding-right: 195px;
+    font-family: Fraunces ;
+    background-color: rgb(248, 247, 243);
+}
+
+.select-pays {
+    display: flex;
+    align-items: center;
+}
+
+
+.num-tel {
+    background-color: rgb(248, 247, 243);
+    border: none;
+    font-size: 20px;
+    margin-top: 37px;
+    padding-right: 100px;
+    font-family: Fraunces;
+}
+
+
+
+.liste-billets {
+    font-size: 18px;
+}
+
+.standard-billets {
+    display: flex;
+    margin: 0px;
+}
+
+.adolescent-billets {
+    display: flex;
+    margin-top: 25px;
+}
+
+.jeune-billets {
+    display: flex;
+    margin-top: 25px;
+}
+
+.enfant-billets {
+    display: flex;
+    margin-top: 25px;
+}
+
+
+.titre-billets {
+    font-size: 30px;
+    margin-bottom: 25px;
+    margin-top: 0;
+    padding-top: 20px;
+}
+
+.symbole-negatif {
+    width: 23px;
+    height: 23px;
+    margin-right: 43px;
+}
+
+.symbole-positif {
+    width: 23px;
+    height: 23px;
+    margin-left: 43px;
+    margin-right: 160px;
+}
+
+
+.symbole-negatif-adolescent {
+    opacity: 0.5;
+}
+
+.symbole-negatif-jeune {
+    opacity: 0.5;
+}
+
+.symbole-negatif-enfant {
+    opacity: 0.5;
+}
+
+.titre-standard-billets {
+    margin: 0;
+    margin-right: 281px;
+}
+
+.nombre-standard-billets {
+    margin: 0;
+    margin-right: 1px;
+    margin-left: 2px;
+}
+
+.prix-standard-billets {
+    margin: 0;
+}
+
+
+.titre-adolescent-billets {
+    margin: 0;
+    margin-right: 199px;
+}
+
+.nombre-adolescent-billets {
+    margin: 0;
+}
+
+.prix-adolescent-billets {
+    margin: 0;
+}
+
+
+.titre-jeune-billets {
+    margin: 0;
+    margin-right: 272px;
+}
+
+.nombre-jeune-billets {
+    margin: 0;
+}
+
+.prix-jeune-billets {
+    margin: 0;
+}
+
+
+.titre-enfant-billets {
+    margin: 0;
+    margin-right: 263px;
+}
+
+.nombre-enfant-billets {
+    margin: 0;
+}
+
+.prix-enfant-billets {
+    margin: 0;
+}

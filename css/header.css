@@ -1,0 +1,105 @@
+header {
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 30px;
+    padding-top: 20px;
+    padding-right: 30px;
+    position: fixed;
+    top: 0;  
+    left: 0; 
+    width: 97%;
+    z-index: 2; 
+}
+
+.menu-deroulant {
+    display: none;
+}
+
+
+.logo-css {
+    width: 90px;
+    border-width: 2px; 
+    backdrop-filter: blur(2px);
+    opacity: 0.7;
+}
+
+.menu-ul {
+    display: flex;
+    list-style: none;
+    background-color: rgba(228, 228, 228, 0.7);
+    padding-right: 30px;
+    padding-left: 30px;
+    border-radius: 45px;
+    border-width: 2px; 
+    border-style: solid;
+    border-color: rgb(255, 255, 255);
+    backdrop-filter: blur(2px);
+}
+
+
+
+
+
+.bouton-menu {
+    background-color: rgba(228, 228, 228, 0);
+    padding: 20px;
+    color: black;
+    border: 0px;
+    font-size: 20px;
+    border-radius: 45px;
+    transition: background-color 0.2s;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.bouton-menu:hover {
+    color: rgb(228, 228, 228);
+    background-color: rgb(26, 31, 46);
+}
+
+select {
+    background-color: rgba(228, 228, 228, 0.7);
+    border: 0px;
+    padding: 20px;
+    margin-right: 20px;
+    border-radius: 45px;
+    appearance: base-select;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    backdrop-filter: blur(2px);
+}
+
+
+@media screen and (max-width: 600px) {
+
+    .logo-css {
+        width: 75px;
+        border-width: 2px; 
+        backdrop-filter: blur(2px);
+        opacity: 0.7;
+    }
+
+    select {
+        margin-right: 40px;
+    }
+
+    .langue {
+        display: none;
+    }
+
+    .menu-deroulant {
+        display: block;
+        position: fixed;
+        top: 0;  
+        left: 0; 
+        margin-left: 330px;
+        margin-top: 20px;
+        z-index: 4;
+    }
+
+    .menu-ul {
+        display: none;
+    }
+
+}
