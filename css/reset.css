@@ -1,0 +1,87 @@
+/* =============================================================
+   CSS RESET (moderne et simple) ======== Généré par AI ========
+   ============================================================= */
+
+/* 1. Box sizing */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* 2. Supprimer marges et paddings par défaut */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* 3. Hauteur pleine page */
+html, body {
+  height: 100%;
+}
+
+/* 4. Typographie de base */
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* 5. Médias responsives */
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+/* 6. Héritage des polices pour les formulaires */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+/* 7. Supprimer styles par défaut des boutons */
+button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+/* 8. Supprimer décorations des liens */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* 9. Listes sans styles */
+ul,
+ol {
+  list-style: none;
+}
+
+/* 10. Tables propres */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* 11. Éviter les débordements de texte */
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+/* 12. Racine d'empilement */
+#root,
+#__next {
+  isolation: isolate;
+}

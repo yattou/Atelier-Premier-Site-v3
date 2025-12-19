@@ -93,9 +93,15 @@ select {
         position: fixed;
         top: 0;  
         left: 0; 
-        margin-left: 330px;
         margin-top: 20px;
         z-index: 4;
+        margin-left: 82%;
+    }
+
+    .menu-deroulant-liste {
+        padding: 10px;
+        font-size: 30px;
+        text-align: center;
     }
 
     .menu-ul {

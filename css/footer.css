@@ -75,7 +75,13 @@ footer {
 
     .contacts-ul {
         flex-direction: column;
-        gap: 0;
+        gap: 15px;
+        margin-top: 40px;
+        align-items: center;
+    }
+
+    .contacts {
+        text-align: center;
     }
 
     .avis-important {
@@ -90,5 +96,9 @@ footer {
 
     .liens {
         margin-top: 40px;
+    }
+
+    .logo-footer {
+        margin-bottom: 80px;
     }
 }

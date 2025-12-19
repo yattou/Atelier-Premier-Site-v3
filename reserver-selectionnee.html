@@ -6,6 +6,7 @@
     <link rel="stylesheet" type="text/css" href="/css/header.css" />
     <link rel="stylesheet" type="text/css" href="/css/reserver-selectionnee.css" />
     <link rel="stylesheet" type="text/css" href="/css/footer.css" />
+    <link rel="stylesheet" type="text/css" href="/reset.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Comme:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -16,7 +17,7 @@
     <header>
 
         <div class="logo">
-            <a href="/index.html"><img src="/images/logo.png" alt="logo "class="logo-css"/></a>
+            <img src="/images/logo.png" alt="logo" class="logo-css"/>
         </div>
 
 
@@ -30,16 +31,28 @@
         </div>
 
         <div class="langue">
-            <select name="langue" id="langue-select">
+            <select name="langue" class="langue-select">
                 <option value="francais">FR</option>
                 <option value="english">EN</option>
                 <option value="espanol">ES</option>
                 <option value="deutsch">DE</option>
             </select>
         </div>
+        
 
     </header>
     <main>
+
+        <div class="menu-deroulant">
+            <select name="langue" class="menu-deroulant-liste">
+                <option value="defaut">☰</option>
+                <option value="découvrir">D.</option>
+                <option value="réserver">R.</option>
+                <option value="informations">I.</option>
+                <option value="contacts">C.</option>
+            </select>
+        </div>
+
         <div class="titre">
             <p>Réservation</p>
         </div>
