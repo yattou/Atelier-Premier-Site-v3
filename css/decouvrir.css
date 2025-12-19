@@ -9,10 +9,8 @@ body {
 }
 
 
-
-
 .intro-img {
-    width: 1510px;
+    width: 98.2%;
     margin-left: 26px;
     margin-top: 250px;
 }
@@ -21,21 +19,23 @@ body {
 .titre-histoire {
     font-size: 100px;
     margin-top: 100px;
-    font-weight: 300;
-    margin-left: 150px;
+    font-weight: 500;
+    margin-left: 4%;
 }
 
 
 .histoire {
     margin-left: 25px;
     margin-right: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 
 .offices-img {
     width: 580px;
     height: 580px;
-    margin-left: 150px;
 }
 
 .texte-offices {
@@ -49,13 +49,20 @@ body {
     margin: 0;
 }
 
+
+
+/* 
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto; */
+
 .paragraphe-offices {
     font-size: 22px;
     font-family: Comme;
     line-height: 42px;
     text-align: left;
-    margin-right: 125px;
     margin-top: 64px;
+    width: 550px;
 }
 
 
@@ -64,7 +71,6 @@ body {
 .pitti-img {
     width: 580px;
     height: 580px;
-    margin-right: 150px;
 }
 
 .texte-pitti {
@@ -84,8 +90,8 @@ body {
     font-family: Comme;
     line-height: 42px;
     text-align: right;
-    margin-left: 125px;
     margin-top: 64px;
+    width: 550px;
 }
 
 
@@ -93,7 +99,6 @@ body {
 .boboli-img {
     width: 580px;
     height: 580px;
-    margin-left: 150px;
 }
 
 .texte-boboli {
@@ -112,15 +117,14 @@ body {
     font-family: Comme;
     line-height: 42px;
     text-align: left;
-    margin-right: 125px;
     margin-top: 64px;
+    width: 550px;
 }
 
 
 .vasari-img {
     width: 580px;
     height: 580px;
-    margin-right: 150px;
 }
 
 .texte-vasari {
@@ -140,8 +144,8 @@ body {
     font-family: Comme;
     line-height: 42px;
     text-align: right;
-    margin-left: 125px;
     margin-top: 64px;
+    width: 550px;
 }
 
 
@@ -182,6 +186,10 @@ body {
     margin-left: 175px;
     margin-right: 175px;
     margin-bottom: 268px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: 500;
 }
 
 .titre-oeuvres {
@@ -202,13 +210,13 @@ body {
 }
 
 .naissance-img {
-    width: 550px;
-    height: 330px;
+    width: 35vw;
+    height: 23vw;
 }
 
 .printemps-img {
-    width: 550px;
-    height: 330px;
+    width: 35vw;
+    height: 23vw;
 }
 
 
@@ -278,6 +286,7 @@ body {
 
 .vinci-img {
     width: 550px;
+    height: 300px;
     margin-right: 36px;
 }
 
@@ -340,11 +349,15 @@ body {
         display: flex;
         flex-direction: column;
         align-items: center;
+        margin: 0;
+        padding: 0;
+
     }
 
     .titre-histoire {
         font-size: 64px;
         margin-right: 280px;
+        margin: 0;
     }
 
     .offices {
@@ -354,8 +367,8 @@ body {
     }
 
     .offices-img {
-        width: 373px;
-        height: 431px;
+        width: 340px;
+        height: 400px;
         margin-left: 0px;
     }
 
@@ -363,16 +376,26 @@ body {
         display: flex;
         flex-direction: column;
         align-items: center;
-        margin-left: 50px;
-        margin-right: 50px;
         padding-left: 10px;
+        margin: 0;
+        font-size: 10px;
+        padding: 0;
+        margin-bottom: 30px;
+        
+    }
+
+    .titre-offices {
+        font-size: 20px;
+        margin-top: 29px;
     }
 
     .paragraphe-offices {
         margin-right: 0px;
         margin-top: 20px;
-        line-height: 50px;
         font-size: 18px;
+        width: 80%;
+        padding: 0;
+        line-height: 35px;
     }
 
     .pitti {
@@ -383,8 +406,8 @@ body {
     }
 
     .pitti-img {
-        width: 373px;
-        height: 431px;
+        width: 340px;
+        height: 400px;
         margin-right: 0px;
     }
 
@@ -395,19 +418,23 @@ body {
         display: flex;
         flex-direction: column;
         align-items: center;
-        margin-left: 50px;
-        margin-right: 50px;
+        margin-left: 0;
+        margin-right: 0;
         padding-right: 10px;
+        margin-bottom: 30px;
     }
 
     .titre-pitti {
-        margin-left: 125px;
+        margin-left: 0;
+        font-size: 20px;
+        margin-top: 29px;
     }
 
     .paragraphe-pitti {
         margin-left: 0px;
         font-size: 18px;
-        line-height: 50px;
+        width: 80%;
+        line-height: 35px;
     }
     
     .boboli {
@@ -419,8 +446,8 @@ body {
     }
 
     .boboli-img {
-        width: 373px;
-        height: 431px;
+        width: 340px;
+        height: 400px;
         margin-left: 0px;
     }
 
@@ -429,16 +456,22 @@ body {
         display: flex;
         flex-direction: column;
         align-items: center;
-        margin-left: 50px;
-        margin-right: 50px;
-        padding-left: 10px;
+        padding-left: 0px;
+        margin: 0;
+        margin-bottom: 30px;
     }
 
     .paragraphe-boboli {
         margin-right: 0px;
         margin-top: 20px;
-        line-height: 50px;
         font-size: 18px;
+        width: 80%;
+        line-height: 35px;
+    }
+
+    .titre-boboli {
+        font-size: 20px;
+        margin-top: 29px;
     }
 
     .vasari {
@@ -449,8 +482,8 @@ body {
     }
 
     .vasari-img {
-        width: 373px;
-        height: 431px;
+        width: 340px;
+        height: 400px;
         margin-right: 0px;
     }
 
@@ -461,19 +494,20 @@ body {
         display: flex;
         flex-direction: column;
         align-items: center;
-        margin-left: 50px;
-        margin-right: 50px;
-        padding-right: 10px;
+        padding-right: 0px;
+        margin-bottom: 30px;
     }
 
     .paragraphe-vasari {
         margin-left: 0px;
         font-size: 18px;
-        line-height: 50px;
+        line-height: 35px;
+        width: 80%;
     }
 
     .titre-vasari {
-        margin-left: 125px;
+        font-size: 20px;
+        margin-top: 29px;
     }
 
 
