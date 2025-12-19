@@ -79,9 +79,13 @@ body {
 .titre {
     font-size: 100px;
     font-family: Fraunces;
-    margin-left: 182px;
-    margin-top: 200px;
+    margin-top: 80px;
     font-weight: 500;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-right: 47vw;
+
 }
 
 .pitti {
@@ -188,7 +192,6 @@ body {
 
     .dispo-4-1 {
         flex-direction: column;
-        background-color: aqua;
         align-items: center;
         margin: 0;
     }
